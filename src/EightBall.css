@@ -1,0 +1,44 @@
+.eightball {
+  width: 15rem;
+  height: 15rem;
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 1rem;
+  padding: 1rem;
+  box-shadow: 0 0 5px -2px #393e46;
+  user-select: none;
+}
+
+.eightball:hover {
+  cursor: pointer;
+}
+
+.button-container {
+  width: 100%;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+button {
+  background-color: #41444b;
+  border: none;
+  border-radius: 3%;
+  color: #fff;
+  width: 7rem;
+  padding: 1rem;
+  align-self: center;
+  border: none;
+  user-select: none;
+}
+
+button:hover,
+button:active {
+  background-color: #52575d;
+  cursor: pointer;
+}
